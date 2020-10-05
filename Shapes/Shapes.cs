@@ -52,5 +52,6 @@ namespace Shapes
             lbPerymTriang.Text = "Perimetr is " + triangle.GetPerimeter();
             lbAreaTriang.Text = "Area is " + triangle.GetArea();
         }
+
     }
 }

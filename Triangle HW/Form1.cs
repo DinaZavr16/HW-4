@@ -26,6 +26,7 @@ namespace Triangle_HW
             lbPerimetr.Text = "Perimeter ";
             lbArea.Text = "Area ";
             lbNTriangle.Text = "";
+            lbAngles.Text = "Angles ";
         }
         EquilTriangle eqtriangle;
         public TriangleCounter()
@@ -65,5 +66,7 @@ namespace Triangle_HW
         {
             Reset();
         }
+
+        
     }
 }

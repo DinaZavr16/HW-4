@@ -27,7 +27,7 @@ namespace Ex6
 
         public virtual float GetArea()
         {
-            return (float)Math.Round(A * B * Math.Sin(angleAB) / 2, 2);
+            return (float)Math.Round(A * B * Math.Abs(Math.Sin(angleAB)) / 2, 2);
         }
     }
 }
