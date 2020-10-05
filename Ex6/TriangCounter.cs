@@ -14,8 +14,8 @@ namespace Ex6
     {
         private void ShowResults(Triangle triangle)
         {
-            lbPerim.Text += $" {Math.Round(triangle.GetPerimeter(), 2)} cm";
-            lbArea.Text += $" {Math.Round(triangle.GetArea(), 2)} cm²";
+            lbPerim.Text = $"Perimetr is {Math.Round(triangle.GetPerimeter(), 2)} cm";
+            lbArea.Text = $"Area is {Math.Round(triangle.GetArea(), 2)} cm²";
         }
         public TriangCounter()
         {

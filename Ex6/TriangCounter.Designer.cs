@@ -43,74 +43,83 @@
             // lbSideA
             // 
             this.lbSideA.AutoSize = true;
+            this.lbSideA.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSideA.Location = new System.Drawing.Point(49, 51);
             this.lbSideA.Name = "lbSideA";
-            this.lbSideA.Size = new System.Drawing.Size(75, 25);
+            this.lbSideA.Size = new System.Drawing.Size(105, 34);
             this.lbSideA.TabIndex = 0;
             this.lbSideA.Text = "Side A";
             // 
             // lbAngle
             // 
             this.lbAngle.AutoSize = true;
+            this.lbAngle.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAngle.Location = new System.Drawing.Point(425, 51);
             this.lbAngle.Name = "lbAngle";
-            this.lbAngle.Size = new System.Drawing.Size(101, 25);
+            this.lbAngle.Size = new System.Drawing.Size(138, 34);
             this.lbAngle.TabIndex = 1;
             this.lbAngle.Text = "Angle AB";
             // 
             // lbSideB
             // 
             this.lbSideB.AutoSize = true;
+            this.lbSideB.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSideB.Location = new System.Drawing.Point(241, 51);
             this.lbSideB.Name = "lbSideB";
-            this.lbSideB.Size = new System.Drawing.Size(75, 25);
+            this.lbSideB.Size = new System.Drawing.Size(102, 34);
             this.lbSideB.TabIndex = 2;
             this.lbSideB.Text = "Side B";
             // 
             // tbSideA
             // 
+            this.tbSideA.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSideA.Location = new System.Drawing.Point(33, 112);
             this.tbSideA.Name = "tbSideA";
-            this.tbSideA.Size = new System.Drawing.Size(100, 31);
+            this.tbSideA.Size = new System.Drawing.Size(100, 51);
             this.tbSideA.TabIndex = 3;
             this.tbSideA.Text = "0";
             // 
             // tbAngle
             // 
+            this.tbAngle.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbAngle.Location = new System.Drawing.Point(430, 112);
             this.tbAngle.Name = "tbAngle";
-            this.tbAngle.Size = new System.Drawing.Size(100, 31);
+            this.tbAngle.Size = new System.Drawing.Size(100, 51);
             this.tbAngle.TabIndex = 4;
             this.tbAngle.Text = "0";
             // 
             // tbSideB
             // 
+            this.tbSideB.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSideB.Location = new System.Drawing.Point(216, 112);
             this.tbSideB.Name = "tbSideB";
-            this.tbSideB.Size = new System.Drawing.Size(100, 31);
+            this.tbSideB.Size = new System.Drawing.Size(100, 51);
             this.tbSideB.TabIndex = 5;
             this.tbSideB.Text = "0";
             // 
             // lbArea
             // 
             this.lbArea.AutoSize = true;
+            this.lbArea.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbArea.Location = new System.Drawing.Point(142, 297);
             this.lbArea.Name = "lbArea";
-            this.lbArea.Size = new System.Drawing.Size(79, 25);
+            this.lbArea.Size = new System.Drawing.Size(110, 34);
             this.lbArea.TabIndex = 6;
             this.lbArea.Text = "Area is";
             // 
             // lbPerim
             // 
             this.lbPerim.AutoSize = true;
+            this.lbPerim.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPerim.Location = new System.Drawing.Point(128, 242);
             this.lbPerim.Name = "lbPerim";
-            this.lbPerim.Size = new System.Drawing.Size(114, 25);
+            this.lbPerim.Size = new System.Drawing.Size(169, 34);
             this.lbPerim.TabIndex = 7;
             this.lbPerim.Text = "Perimetr is";
             // 
             // btnResult
             // 
+            this.btnResult.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResult.Location = new System.Drawing.Point(598, 39);
             this.btnResult.Name = "btnResult";
             this.btnResult.Size = new System.Drawing.Size(215, 151);
@@ -122,15 +131,17 @@
             // lbError
             // 
             this.lbError.AutoSize = true;
+            this.lbError.Font = new System.Drawing.Font("MV Boli", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbError.Location = new System.Drawing.Point(447, 263);
             this.lbError.Name = "lbError";
-            this.lbError.Size = new System.Drawing.Size(0, 25);
+            this.lbError.Size = new System.Drawing.Size(0, 34);
             this.lbError.TabIndex = 9;
             // 
             // TriangCounter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(850, 447);
             this.Controls.Add(this.lbError);
             this.Controls.Add(this.btnResult);
@@ -142,6 +153,8 @@
             this.Controls.Add(this.lbSideB);
             this.Controls.Add(this.lbAngle);
             this.Controls.Add(this.lbSideA);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.HelpButton = true;
             this.Name = "TriangCounter";
             this.Text = "Triangle Counter";
             this.ResumeLayout(false);
